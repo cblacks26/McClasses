@@ -1,0 +1,98 @@
+Database:
+  Type: SQLite
+  Username: root
+  Password: pass
+  Database: Minecraft
+  Hostname: localhost
+  Port: 3306  
+Money Multiplier: 0.25
+Classes:
+  Assasin:
+    Skills:
+      - Unarmed
+      - Acrobatics
+      - Archery
+      - Weaponry
+    Settings:
+      XP Difficulty: false
+  Worker:
+    Skills:
+      - Mining
+      - WoodCutting
+      - Digging
+#Skills Section Modifies the default experience for Entities and Blocks
+Skills:
+  Archery:
+    Player: 10.0
+    Zombie: 4.0
+    Creeper: 6.0
+    Skeleton: 5.0
+    Spider: 4.0
+    Slime: 3.0
+    Blaze: 5.0
+    Enderman: 10.0
+  Unarmed:
+    Player: 10.0
+    Zombie: 6.0
+    Creeper: 6.0
+    Skeleton: 5.0
+    Spider: 5.0
+    Slime: 3.0
+    Blaze: 6.0
+    Enderman: 10.0
+  Acrobatics:
+    Damage Modifier: .07
+  Mining:
+    Stone: 1.0
+    Sandstone: 2.0
+    Netherrack: 1.0
+    Obsidian: 5.0
+    Coal_Ore: 3.0
+    Redstone_Ore: 4.0
+    Iron_Ore: 4.0
+    Gold_Ore: 5.0
+    Diamond_Ore: 6.0
+    Emerald_Ore: 7.0
+    Lapis_Ore: 4.0
+    Quartz_Ore: 4.0
+  WoodCutting:
+    Wood: 0.25
+    Log: 1.0
+  Digging:
+    Sand: 2.0
+    Dirt: 1.0
+    Gravel: 2.0
+    Clay: 3.0
+    Grass: 1.0
+    Soul_Sand: 3.0
+    Snow: 2.0
+    Snow_Block: 3.0
+    Mycel: 3.0
+  Weaponry:
+    Entities:
+      Player: 10.0
+      Zombie: 4.0
+      Creeper: 6.0
+      Skeleton: 5.0
+      Spider: 4.0
+      Slime: 3.0
+      Blaze: 5.0
+      Enderman: 10.0
+    Weapons:
+      - Wood_Sword
+      - Stone_Sword
+      - Iron_Sword
+      - Gold_Sword
+      - Diamond_Sword
+      - Wood_Pickaxe
+      - Stone_Pickaxe
+      - Iron_Pickaxe
+      - Gold_Pickaxe
+      - Diamond_Pickaxe
+      - Wood_Spade
+      - Stone_Spade
+      - Iron_Spade
+      - Gold_Spade
+      - Diamond_Spade
+# Don't touch last section!!!! It is for the server to make class changes
+Last:

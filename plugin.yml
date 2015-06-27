@@ -1,0 +1,12 @@
+name: VSkills
+main: io.github.cblacks26.vskills.VSkills
+version: 2.0
+author: cblacks26
+depend: [Vault]
+commands:
+  VSwitch:
+    description: Changes the user's skill class
+    usage: /VSwitch <SkillClass>
+  VList:
+    description: Lists the Skill Classes and their Skills
+    usage: /VList
